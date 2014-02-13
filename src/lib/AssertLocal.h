@@ -3,8 +3,8 @@
 #include <sstream>
 #include <assert.h>
 
-#ifndef ASSERT_H
-#define ASSERT_H
+#ifndef ASSERT_LOCAL_H
+#define ASSERT_LOCAL_H
 
 /** Runtime assert */
 #define RASSERT(condition, message)\

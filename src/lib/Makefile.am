@@ -10,7 +10,7 @@
 #
 
 pkginclude_HEADERS = \
-  Assert.h \
+  AssertLocal.h \
   RCIPtr.h \
   Wide.h \
   CharArrayEqualFunc.h \
@@ -36,7 +36,7 @@ DEFS += -DLANG_ENGLISH
 lib_LIBRARIES = libswirlmain.a
 
 libswirlmain_a_SOURCES = \
-  Assert.h \
+  AssertLocal.h \
   AdaBoostClassifier.cc \
   AdaBoostClassifier.h \
   Analysis.cc \
@@ -89,7 +89,7 @@ libswirlmain_a_SOURCES = \
   UnitCandidate.cc \
   Wide.h \
   Word.h \
-  Wn.h \
+  WnAPI.h \
   Wn.cc 
 
 

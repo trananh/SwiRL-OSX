@@ -1,3 +1,29 @@
+# System files
+.DS_Store
+
+# Config files
+Makefile
+config.h
+config.log
+config.status
+m4/Makefile
+src/*Makefile
+src/*/.deps
+stamp-h1
+
+# Test files
+testing
+
+# Compiled binaries
+src/bin/ab_learner
+src/bin/convert_for_test
+src/bin/convert_treebank
+src/bin/swirl_classify
+src/bin/swirl_corpus_stats
+src/bin/swirl_make_binary_samples
+src/bin/swirl_make_samples
+src/bin/swirl_parse_classify
+
 # Compiled Object files
 *.slo
 *.lo
