@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>SwiRL-OSX by trananh</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>SwiRL-OSX</h1>
+        <p>MAC OSX compatible version of SwiRL -- a Semantic Role Labeling (SRL) system for English.</p>
+        <p class="view"><a href="https://github.com/trananh/SwiRL-OSX">View the Project on GitHub <small>trananh/SwiRL-OSX</small></a></p>
+        <ul>
+          <li><a href="https://github.com/trananh/SwiRL-OSX/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/trananh/SwiRL-OSX/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/trananh/SwiRL-OSX">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h2>
+<a name="what-is-swirl-osx" class="anchor" href="#what-is-swirl-osx"><span class="octicon octicon-link"></span></a>What is SwiRL-OSX?</h2>
+
+<p>SwiRL-OSX is a Mac OSX compatible version of the original
+<a href="http://www.surdeanu.info/mihai/swirl/">SwiRL</a> system developed by Mihai Surdeanu.</p>
+
+<p>The source is verified to build in OSX Snow Leopard, using gcc 4.2.1.</p>
+
+<p>For common build errors, please refer to this <a href="http://www.surdeanu.info/mihai/swirl/faq.php">FAQ</a>.</p>
+
+<h2>
+<a name="what-is-swirl" class="anchor" href="#what-is-swirl"><span class="octicon octicon-link"></span></a>What is SwiRL?</h2>
+
+<p>SwiRL is a Semantic Role Labeling (SRL) system constructed on top of the full 
+syntactic analysis of text. The syntactic analysis is performed using Eugene 
+Charniak's parser (included in this package). SwiRL trains one classifier for
+each argument label using a rich set of syntactic and semantic features. 
+The classifiers are learned using one-vs-all AdaBoost classifiers, using
+Xavier Carreras' AdaBoost software (included in this package).</p>
+
+<p>When tested on the CoNLL evaluation data, SwiRL obtains an F1 measure of
+77.44 on the WSJ testing section and of 66.65 on the Brown testing section.
+The execution time is slightly less than 3 seconds/sentence (includes 
+full parsing and SRL).</p>
+
+<h2>
+<a name="author" class="anchor" href="#author"><span class="octicon octicon-link"></span></a>Author</h2>
+
+<p>Mihai Surdeanu, but this package includes also Eugene Charniak's parser and
+Xavier Carreras' AdaBoost software.</p>
+
+<h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>For installation details, please refer to the original README.</p>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/trananh">trananh</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-48101157-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
