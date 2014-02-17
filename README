@@ -1,11 +1,14 @@
 SwiRL-OSX
 =========
 
-SwiRL-OSX is a Mac OSX compatible version of the original SwiRL system, developed by Mihai Surdeanu.
+SwiRL-OSX is a Mac OSX compatible version of the original SwiRL system, developed
+by Mihai Surdeanu.
 
 The source is verified to build in OSX Snow Leopard, using gcc 4.2.1.
 
-Make sure you have WordNet installed and the environment variable $WNHOME is set to the root of the installation directory.  You can download and install WordNet at [http://wordnet.princeton.edu/], then set $WNHOME accordingly.  See example.
+Make sure you have WordNet installed and the environment variable $WNHOME is set
+to the root of the installation directory.  You can download and install WordNet
+at [http://wordnet.princeton.edu/], then set $WNHOME accordingly.  See example.
 
 ```
 $ # If you installed wordnet to /usr/local/WordNet-3.0/
@@ -14,7 +17,7 @@ $ echo $WNHOME
 /usr/local/WordNet-3.0/
 ```
 
-For other common build errors, please refer to this [FAQ](http://www.surdeanu.info/mihai/swirl/faq.php).
+For other build errors, please see http://www.surdeanu.info/mihai/swirl/faq.php
 
 
 Now onto the SwiRL's README ...
