@@ -35,7 +35,17 @@
 
 <p>The source is verified to build in OSX Snow Leopard, using gcc 4.2.1.</p>
 
-<p>For common build errors, please refer to this <a href="http://www.surdeanu.info/mihai/swirl/faq.php">FAQ</a>.</p>
+<p>Make sure you have WordNet installed and the environment variable $WNHOME is set
+to the root of the installation directory.  You can download and install WordNet
+<a href="http://wordnet.princeton.edu/">here</a>, then set $WNHOME accordingly.  See example.</p>
+
+<pre><code>$ # If you installed wordnet to /usr/local/WordNet-3.0/
+$ export WNHOME='/usr/local/WordNet-3.0/'
+$ echo $WNHOME
+/usr/local/WordNet-3.0/
+</code></pre>
+
+<p>For other build errors, please refer to this <a href="http://www.surdeanu.info/mihai/swirl/faq.php">FAQ</a>.</p>
 
 <h2>
 <a name="what-is-swirl" class="anchor" href="#what-is-swirl"><span class="octicon octicon-link"></span></a>What is SwiRL?</h2>
